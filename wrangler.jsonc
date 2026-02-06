@@ -1,4 +1,24 @@
-
+{
+  "name": "moltbot-sandbox",
+  "main": "src/index.ts",
+  "compatibility_date": "2025-05-06",
   "preview_urls": {
     "enabled": false
   },
+  "durable_objects": {
+    "bindings": [
+      {
+        "name": "MOLT_BOT",
+        "class_name": "MoltBot"
+      }
+    ]
+  },
+  "migrations": [
+    {
+      "tag": "v1",
+      "new_classes": [
+        "MoltBot"
+      ]
+    }
+  ]
+}
