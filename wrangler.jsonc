@@ -46,9 +46,13 @@
         "tag": "v1"
       }
     ],
-
-
-
+    "r2_buckets": [
+      {
+        "binding": "MOLTBOT_BUCKET",
+        "bucket_name": "jaredleper-data",
+        "preview_bucket_name": "jaredleper-data"
+      }
+    ],
     "triggers": {
       "crons": [
         "*/5 * * * *"
